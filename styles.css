@@ -1,5 +1,7 @@
 body{
-  background-color: plum;
+  background: linear-gradient(to bottom, #666699 0%, #99ccff 100%);
+  
+
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin:0px;
   padding: 0px;
@@ -12,3 +14,6 @@ body{
 
 
 };
+.sideads{
+  float: right;
+}
