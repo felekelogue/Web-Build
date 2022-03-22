@@ -22,14 +22,14 @@ body{
 .footer{
   text-align: center;
 }
-.row {
-width: 100%;
+.grid {
+  width: 100%;
 }
 *{
   box-sizing: border-box;
 }
 @media (min-width:1200px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
+  .g-col-1, .g-col-2, .g-col-3, .g-col-4, .g-col-5, .g-col-6, .g-col-7, .g-col-8, .g-col-9, .g-col-10, .g-col-11, .g-col-12{
     float: right;
     border: 1px solid black;
    
@@ -45,15 +45,16 @@ width: 100%;
   
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
+  .g-col-1, .g-col-2, .g-col-3, .g-col-4, .g-col-5, .g-col-6, .g-col-7, .g-col-8, .g-col-9, .g-col-10, .g-col-11, .g-col-12{
     float: right;
     border: 1px solid black;
 
   }
-  .col-lg-1 {
+  .g-col-1 {
     width: 20%;
   }
-  .col-lg-2 {
+  .g-col-2 {
     width: 20%;
   }
+ 
 }
